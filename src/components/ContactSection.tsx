@@ -6,9 +6,9 @@ import { useState, FormEvent } from 'react';
 
 const contactConfig = {
   company: {
-    name: 'FixurDevice',
-    address: '123 1st Floor, BTM Layout',
-    city: 'Bangalore, Karnataka 560029',
+    name: 'FixurDevice Apple Service',
+    address: '#159, 1st Floor 32nd E Cross Rd, Opp To Sanjay Gandhi Hospital, 4th T Block East, Tilak Nagar, Jayanagar',
+    city: 'Bengaluru, Karnataka 560041, India',
     mapUrl: 'https://www.google.com/maps/place/Fixblr/@12.9276467,77.5911674,17z',
     mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.3087435558557!2d77.59116742345899!3d12.927646720740848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17001ceb36dd%3A0x93d9453ce61ab81!2sFixblr!5e0!3m2!1sen!2sin!4v1708422000000',
   },
