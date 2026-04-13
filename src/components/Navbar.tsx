@@ -16,7 +16,7 @@ const companyInfo = {
   nameHighlight: 'Device',
   logo: 'levlox_logo.png',
   phone: '9343584460',
-  whatsapp: '919663360775',
+  whatsapp: '919343584460',
   whatsappMessage: 'Hi, I need iPhone repair service',
 };
 
