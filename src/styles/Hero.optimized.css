@@ -1,0 +1,107 @@
+/* ============================================
+   PREMIUM WHITE & BLACK - OPTIMIZED CSS
+   Lightweight version for maximum performance
+   ============================================ */
+
+/* Core Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-25px); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Animation Classes */
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-fade-up { animation: fade-up 0.6s ease-out forwards; opacity: 0; }
+
+/* Premium Text */
+.premium-text-white {
+  color: white;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.premium-gradient-text {
+  background: linear-gradient(135deg, #000000 0%, #333333 50%, #000000 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 8s ease infinite;
+  font-weight: 900;
+}
+
+/* Premium Badge */
+.premium-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.premium-badge:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Feature Cards */
+.premium-feature-card {
+  transition: transform 0.3s ease;
+}
+
+.premium-feature-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* CTA Buttons */
+.premium-cta-primary,
+.premium-cta-secondary {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.premium-cta-primary::before,
+.premium-cta-secondary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s ease;
+}
+
+.premium-cta-primary:hover::before,
+.premium-cta-secondary:hover::after {
+  left: 100%;
+}
+
+/* Glow Effect */
+.glow-premium {
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .premium-badge { font-size: 0.75rem; padding: 0.5rem 1rem; }
+  .premium-text-white { font-size: clamp(1.875rem, 6vw, 2.5rem); }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
