@@ -105,7 +105,7 @@ const Index = () => {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919663360775?text=Hi%20I%20need%20iPhone%20repair"
+        href="https://wa.me/9343584460?text=Hi%2C%20I%20need%20iPhone%20repair%20service"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
