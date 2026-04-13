@@ -139,7 +139,7 @@ const GalleryPage = () => {
                     <span>Call Now – Free Diagnosis</span>
                   </a>
                   <a
-                    href="https://wa.me/919663360775?text=Hi%20I%20want%20to%20know%20more%20about%20your%20iPhone%20repair%20services"
+                    href="https://wa.me/9343584460?text=Hi%2C%20I%20need%20iPhone%20repair%20service"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-3 w-full bg-white/10 backdrop-blur-xl px-8 py-4 rounded-xl font-bold text-white border-2 border-primary/50 hover:border-primary hover:bg-white/20 transition-all duration-300 hover:scale-105 active:scale-95"

@@ -208,7 +208,7 @@ const WhyChoose = () => {
                 </a>
                 
                 <a
-                  href="https://wa.me/919663360775?text=Hi%20I%20need%20iPhone%20repair"
+                  href="https://wa.me/9343584460?text=Hi%2C%20I%20need%20iPhone%20repair%20service"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 sm:gap-3 px-6 sm:px-10 py-3 sm:py-4 rounded-lg sm:rounded-xl font-bold text-sm sm:text-lg border-2 border-green-400/50 text-white hover:border-green-400/80 hover:bg-green-400/20 transition-all duration-300 hover:scale-105 active:scale-95 w-full sm:w-auto"
