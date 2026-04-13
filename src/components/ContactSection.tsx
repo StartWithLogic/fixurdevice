@@ -62,7 +62,7 @@ const ContactSection = () => {
 
   const sendEmail = async (data: FormData) => {
     try {
-      const API_URL = "https://fixurdevice-backend.onrender.com";
+      const API_URL = "https://fixurdevice.onrender.com";
 
       const response = await fetch(`${API_URL}/send-email`, {
         method: "POST",
